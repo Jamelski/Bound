@@ -1,0 +1,285 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+		margin:0;
+		padding:0;
+	}
+	
+	#wrapper{
+		font-family: 'Source Sans Pro', sans-serif;
+		width:1024px;
+		margin-left:auto;
+		margin-right:auto;
+		
+	}
+	
+	.header-wrapper{
+		width:1024px;
+		height:150px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.header{
+		height:150px;
+		width:1024px;
+		background-color:#FFFFFF;
+		position:fixed;
+		opacity:0.85;
+		color:#0066ff;
+		font-size:25px;
+	}
+	
+	.left-menu{
+		float:left;
+		margin-left:55px;
+		margin-top:95px;
+	}
+	
+	.left-menu li:first-child{
+		padding-left:0;
+		border-left:none;
+		margin-left:0;	
+	}
+	
+	.left-menu li{
+		float: left;
+		list-style: none;
+		border-left: 2px;
+		border-top: 0;
+		border-style: solid;
+		border-color: #0066ff;
+		border-bottom: 0;
+		border-right: 0;
+		padding-left: 25px;
+		margin-left: 25px;
+	}
+	
+	.left-menu a{
+		text-decoration:none;
+	}
+	.logo{
+		width:430px;
+		height:144px;
+		background-image:url(../images/logo_03.png);
+		float:left;
+		margin-left:22px;
+	}
+	
+	.right-menu{
+		float:left;
+		margin-left:22px;
+		margin-top:95px;
+	}
+	
+	.right-menu li:first-child{
+		padding-left:0;
+		border-left:none;
+		margin-left:0;	
+	}
+	
+	.right-menu li{
+		float: left;
+		list-style: none;
+		border-left: 2px;
+		border-top: 0;
+		border-style: solid;
+		border-color: #0066ff;
+		border-bottom: 0;
+		border-right: 0;
+		padding-left: 25px;
+		margin-left: 25px;
+	}
+	
+	.right-menu a{
+		text-decoration:none;	
+	}
+	
+	.content-footer-wrapper{
+		position: absolute;
+		top:0px;
+		z-index: -99;
+	}
+	
+	.my-content{
+		width:1024px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.my-content h1{
+		float:left;
+		margin-top:45px;
+		margin-left:45px;
+		color:#dbdbdb;
+		font-size:50px;	
+	}
+	
+	.my-content-paragraphs{
+		float:left;
+		margin-left:45px;
+		margin-right:45px;
+		margin-top:15px;
+		color:#4F4F4F;
+		-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    	-moz-column-count: 3; /* Firefox */
+    	column-count: 3;	
+		text-align:justify;
+		font-size:16px;
+	}
+	
+	.footer{
+		font-size:12px;
+		color:#0066ff;
+		text-align:center;
+		height:110px;
+		width:1024px;
+		background-color:#dbdbdb;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.footer p:first-child{
+		padding-top:10px;	
+	}
+	
+	/*Drupal Edits*/
+	.region-leftmenu li{
+		
+	}
+	
+	.region-leftmenu{
+		float:left;
+		margin-left:55px;
+		margin-top:95px;
+	}
+	
+	.region-leftmenu li:first-child{
+		padding-left:0;
+		border-left:none;
+		margin-left:0;	
+	}
+	
+	.region-leftmenu li{
+		float: left;
+		list-style: none;
+		border-left: 2px;
+		border-top: 0;
+		border-style: solid;
+		border-color: #0066ff;
+		border-bottom: 0;
+		border-right: 0;
+		padding-left: 25px;
+		margin-left: 25px;
+	}
+	
+	.region-leftmenu ul li.leaf{
+		list-style:none;	
+	}
+	
+	.region-leftmenu a{
+		text-decoration:none;
+		color: #0066ff;
+	}
+	
+	.region-leftmenu li a.active{
+		color: #0066ff;	
+	}
+	
+	<!--Right Menu-->
+	.region-rightmenu{
+		float:left;
+		margin-left:55px;
+		margin-top:95px;
+	}
+	
+	.region-rightmenu li:first-child{
+		padding-left:0;
+		border-left:none;
+		margin-left:0;	
+	}
+	
+	.region-rightmenu li{
+		float: left;
+		list-style: none;
+		border-left: 2px;
+		border-top: 0;
+		border-style: solid;
+		border-color: #0066ff;
+		border-bottom: 0;
+		border-right: 0;
+		padding-left: 25px;
+		margin-left: 25px;
+	}
+	
+	.region-rightmenu ul li.leaf{
+		list-style:none;	
+	}
+	
+	.region-rightmenu a{
+		text-decoration:none;
+		color: #0066ff;
+	}
+	
+	.region-rightmenu li a.active{
+		color: #0066ff;	
+	}
+	
+	#block-block-1 p{
+		float:left;
+		margin-top:15px;
+		color:#4F4F4F;
+		-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    	-moz-column-count: 3; /* Firefox */
+    	column-count: 3;	
+		text-align:justify;
+		font-size:16px;
+		width:929px;
+	}
+	
+	#node-1 p{
+		float:left;
+		padding-left:45px;
+		padding-right:45px;
+		text-align:justify;
+		margin-top:35px;
+		-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    	-moz-column-count: 3; /* Firefox */
+    	column-count: 3;	
+		border-top: thin;
+    border-color: #E0DDDD;
+    /* border-width: 1px; */
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding-top: 35px;
+	}
+	
+	.footer{
+		float:left;
+		margin-top:35px;
+	}
+	
+	#block-block-2{
+		height:200px;
+	}
+	
+	.feed-item{
+		float:left;
+		width:50%;
+		clear:left;
+		margin-left:auto;
+		margin-right:auto;
+		border-bottom:solid;
+		border-color:#D6D5D5;
+		border-width:1px;
+	}
+	
+	.right-sidebar{
+		width: 25%;
+		position: fixed;
+		right: 0;
+		top: 250px;	
+	}

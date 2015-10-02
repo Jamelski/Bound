@@ -1,0 +1,16 @@
+name = Bound Theme
+description = This is a custom Bound theme
+core = 7.x
+engine = phptemplate
+
+regions[leftmenu] = Left Menu
+regions[logo] = Logo
+regions[rightmenu] = Right Menu
+regions[rightsidebar] = Right Sidebar
+regions[content] = Content
+regions[footer] = Footer
+
+stylesheets[all][] = css/styles.css
+stylesheets[print][] = css/print.css
+
+features[] = logo
